@@ -31,6 +31,8 @@ where `<input-awk-files>` - set of `.awk` files to parse and generate documentat
   - `ERROR[<number> line]: "Arguments" tag is unnecessary because no arguments described.`
   - `ERROR[<number> line]: Wrong argument description format.`
   - `ERROR[<number> line]: Wrong return description format.`
+- `2` code:
+  - `ERROR: no input .awk files to read from provided.`
 
 ## Documentation comments
 
