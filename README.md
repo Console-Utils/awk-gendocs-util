@@ -10,9 +10,15 @@ Simple documentation generator for AWK.
 
 ## Syntax
 
-`awk -f gendocs.awk -- <input-awk-files>`
+```sh
+awk -f gendocs.awk -- -o|--output <value> -- <input-awk-files>
+```
 
-where `<input-awk-files>` - set of `.awk` files to parse and generate documentation from.
+where:
+- `-h`|`--help` - prints this help and exits with 0
+- `-v`|`--version` - prints version and exits with 0
+- `-o`|`--output` - output directory with .md documentation files
+- `<input-awk-files>` - set of `.awk` files to parse and generate documentation from.
 
 ## Return codes
 
