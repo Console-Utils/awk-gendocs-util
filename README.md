@@ -20,6 +20,18 @@ where `<input-awk-files>` - set of `.awk` files to parse and generate documentat
 - `1` - invalid documentation comment or doc file to be created already exists
 - `2` - no files provided
 
+## Error messages
+
+- `1` code:
+  - `ERROR[<number> line]: "Description" tag on the first documentation comment line expected.`
+  - `ERROR[<number> line]: No trailing empty documentation comment lines expected`
+  - `ERROR[<number> line]: "Description" tag is already defined.`
+  - `ERROR[<number> line]: "Arguments" tag is already defined.`
+  - `ERROR[<number> line]: "Returns" tag is already defined.`
+  - `ERROR[<number> line]: "Arguments" tag is unnecessary because no arguments described.`
+  - `ERROR[<number> line]: Wrong argument description format.`
+  - `ERROR[<number> line]: Wrong return description format.`
+
 ## Documentation comments
 
 Documentation comments (or simply comments) are single-line comments in .awk programs. They must be placed immidiately before function definition and use the following syntax:
