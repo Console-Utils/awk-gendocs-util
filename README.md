@@ -14,6 +14,12 @@ Simple documentation generator for AWK.
 
 where `<input-awk-files>` - set of `.awk` files to parse and generate documentation from.
 
+## Return codes
+
+- `0` - success
+- `1` - invalid documentation comment or doc file to be created already exists
+- `2` - no files provided
+
 ## Documentation comments
 
 Documentation comments (or simply comments) are single-line comments in .awk programs. They must be placed immidiately before function definition and use the following syntax:
