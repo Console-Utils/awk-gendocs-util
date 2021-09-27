@@ -84,7 +84,7 @@ function Sum(a, b) {
 
 Generated documentation has the following format:
 
-```txt
+```md
 # AWK-file-name-without-extension
 
 ## function-name(argument-type)
