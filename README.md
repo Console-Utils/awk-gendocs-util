@@ -15,6 +15,7 @@ awk -f gendocs.awk -- -o|--output <value> -- <input-awk-files>
 ```
 
 where:
+
 - `-h`|`--help` - prints this help and exits with 0
 - `-v`|`--version` - prints version and exits with 0
 - `-o`|`--output` - output directory with .md documentation files
@@ -62,7 +63,8 @@ function Some(args) {
 If you don't know which type to specify you can write `any` instead of it. It is also useful when it doesn't matter which type parameters have.
 
 Example:
-```awk
+
+```md
 # Description: Calculates integer sum.
 #
 # Arguments:
@@ -82,7 +84,7 @@ function Sum(a, b) {
 
 Generated documentation has the following format:
 
-```
+```txt
 # AWK-file-name-without-extension
 
 ## function-name(argument-type)
