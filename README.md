@@ -11,7 +11,7 @@ Simple documentation generator for AWK.
 ## Syntax
 
 ```sh
-awk -f gendocs.awk -- -o|--output <value> -- <input-awk-files>
+awk -f gendocs.awk -- [options] [input-awk-files]
 ```
 
 where:
